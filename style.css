@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: beige;
+    background-image: url('weafore.jpg');
+}
+
+.main{
+    width: 400px;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.names{
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+    background: antiquewhite;
+}
+
+.names input[type="text"]{
+    height: 3.5rem;
+    width: 20rem;
+    border: 2px solid black;
+    border-radius: 2px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background: transparent;
+    margin-right: 4px;
+    padding: 10px;
+}
+
+.names button[type="click"]{
+    height: 3.2rem;
+    width: 6.5rem;
+    margin-top: 20px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background: aquamarine;
+    color: black;
+}
+
+.display{
+    text-align: center;
+    width: 400px;
+    color: wheat;
+}
+
+.weather{
+   margin: 0.9rem;
+   background: antiquewhite; 
+   height: 45vh;
+   margin: 50px auto;
+   border-radius: 2px;
+}
+
+.town{
+    padding: 5px 0;
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-family: sans-serif;
+  }
+  .weather p{
+    margin:20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: black;
+    font-size:23px;
+  }
+
+  .weather h1 span{
+    font-size: 26px;
+    color: black;
+  }
+
+  .weather p span{
+    color: black;
+    font-size: 25px;
+  }
+
+  .maq{
+      font-size: 40px;
+  }
